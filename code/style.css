@@ -1,10 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
-  background: #0025FF;
+  background: #FFAEC1;
   color: #fff;
 }
 
 header {
   padding: 20px;
+  text-align: center;
+}
+
+p {
+  color: #FF0055;
+  text-align: center;
+  padding-bottom: 5px;
+  margin: auto;
+  font-family: "open sans", sans-serif;
+  font-style: normal;
 }
 
 .logo {
@@ -14,9 +28,39 @@ header {
   height: 200px;
   border-radius: 100%;
   background: #fff;
+  box-shadow:5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
   width: 140px;
   margin-top: 55px;
+}
+
+.yearbook{
+text-align: center;
+}
+
+.card img {
+  width:90%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+.card {
+  width: 25%;
+  float:left
+
+}
+
+ .inner {
+  background-color: #FFDFE7;
+  margin: 25px;
+  padding: 5px;
+  box-shadow:5px 10px rgba(0, 0, 0, 0.1);
+
 }
